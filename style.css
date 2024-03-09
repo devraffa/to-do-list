@@ -1,0 +1,54 @@
+html{
+  background-color: lightgrey
+}
+.container{
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 4%;
+}
+.titulo{
+    padding: auto;
+    margin: auto;
+    background-color: rgb(95, 45, 119);
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.titulo h3{
+    padding: auto;
+    margin: 1.1%;
+    color: white;
+}
+.botao-adicionar{
+    margin: auto;
+    padding: 10px;
+    text-align: end;
+}
+.botao-adicionar button{
+  background-color: rgb(95, 45, 119);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  transition: color 100ms;
+  vertical-align: baseline;
+  touch-action: manipulation;
+}
+.botao-adicionar button:hover{
+  background-color: rgb(146, 87, 173);
+  cursor: pointer;
+}
